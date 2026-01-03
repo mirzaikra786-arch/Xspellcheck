@@ -22,7 +22,7 @@ const[input, setInput]=useState("");
 
     for (const word of words) {
       if (customDictionary[word]) {
-        gotSuggestion = `Did you mean: ${customDictionary[word]}`
+        gotSuggestion = `Did you mean: ${customDictionary[word]}?`
         break; 
       }
     }
